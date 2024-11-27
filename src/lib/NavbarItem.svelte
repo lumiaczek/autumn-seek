@@ -3,7 +3,6 @@
     export let route = '';
     export let currRoute: string | null;
 
-    console.log(currRoute)
 
     const determinRoute = () => {
         switch(route){
